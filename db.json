@@ -1,169 +1,85 @@
-const formJson = {
-
-        formId : "839f2efb-52fe-4cee-8037-cb93c7c05064",
-
-        formData : [
-
-            { 
-
-             header : "Basic Details", 
-
-             elements : [
-
-                    {
-
-                        fieldtype:'input',
-
-                        id:'cname',
-
-                        name:'cname',
-
-                        label:'Customer name',
-
-                    },
-
-                    {
-
-                     fieldtype:'input',
-
-                     id:'apRequired',
-
-                     name:'apRequired',
-
-                     label:'Approval Required',
-
-                 },
-
-                 {
-
-                    fieldtype:'textarea',
-
-                     id:'description',
-
-                     name:'description',
-
-                     label:'Description'
-
-                 }
-
-                ]
-
-             },
-
-             { 
-
-                header : "Teritory Details", 
-
-                elements : [
-
-                       {
-
-                           fieldtype:'dropdown',
-
-                           id:'cname',
-
-                           name:'cname',
-
-                           label:'Business Unit',
-
-                       },
-
-                       {
-
-                        fieldtype:'input',
-
-                        id:'apRequired',
-
-                        name:'apRequired',
-
-                        label:"Payee's Region"
-
-                    },
-
-                    {
-
-                       fieldtype:'input',
-
-                        id:'teritoryName',
-
-                        name:'teritoryName',
-
-                        label:'Teritory Name'
-
-                    }
-
-                   ]
-
-                },   
-
-                { 
-
-                    header : "Eligibility Checklist", 
-
-                    elements : [
-
-                           {
-
-                               fieldtype:'dropdown',
-
-                               id:'termExtention',
-
-                               name:'termExtention',
-
-                               label:'Is net term extention atleast one year',
-
-                           },
-
-                           {
-
-                            fieldtype:'dropdown',
-
-                            id:'commitmentIncrease',
-
-                            name:'commitmentIncrease',
-
-                            label:"If is net commitment increase $500000 or greater"
-
-                        },
-
-                        {
-
-                           fieldtype:'dropdown',
-
-                            id:'aacv',
-
-                            name:'aacv',
-
-                            label:'Is AACV 10% or greater than the existing contract'
-
-                        },
-
-                       ]
-
-                    },
-
-                    { 
-
-                        header : "", 
-
-                        elements : [
-
-                               {
-
-                                   fieldtype:'attachment',
-
-                                   id:'fileAttachment',
-
-                                   name:'fileAttachment',
-
-                                   label:"",
-
-                               }
-
-                           ]
-
-                        }
-
-         ]
-
-    }
+{
+	"formId":"839f2efb-52fe-4cee-8037-cb93c7c05064",
+	"formData":[
+		{
+			"header":"Basic Details",
+			"elements":[
+				{
+					"fieldtype":"input",
+					"id":"cname",
+					"name":"cname",
+					"label":"Customer name"
+				},
+				{
+					"fieldtype":"input",
+					"id":"apRequired",
+					"name":"apRequired",
+					"label":"Approval Required"
+				},
+				{
+					"fieldtype":"textarea",
+					"id":"description",
+					"name":"description",
+					"label":"Description"
+				}
+			]
+		},
+		{
+			"header":"Teritory Details",
+			"elements":[
+				{
+					"fieldtype":"dropdown",
+					"id":"cname",
+					"name":"cname",
+					"label":"Business Unit"
+				},
+				{
+					"fieldtype":"input",
+					"id":"apRequired",
+					"name":"apRequired",
+					"label":"Payee's Region"
+				},
+				{
+					"fieldtype":"input",
+					"id":"teritoryName",
+					"name":"teritoryName",
+					"label":"Teritory Name"
+				}
+			]
+		},
+		{
+			"header":"Eligibility Checklist",
+			"elements":[
+				{
+					"fieldtype":"dropdown",
+					"id":"termExtention",
+					"name":"termExtention",
+					"label":"Is net term extention atleast one year"
+				},
+				{
+					"fieldtype":"dropdown",
+					"id":"commitmentIncrease",
+					"name":"commitmentIncrease",
+					"label":"If is net commitment increase $500000 or greater"
+				},
+				{
+					"fieldtype":"dropdown",
+					"id":"aacv",
+					"name":"aacv",
+					"label":"Is AACV 10% or greater than the existing contract"
+				}
+			]
+		},
+		{
+			"header":"",
+			"elements":[
+				{
+					"fieldtype":"attachment",
+					"id":"fileAttachment",
+					"name":"fileAttachment",
+					"label":""
+				}
+			]
+		}
+	]
+}
